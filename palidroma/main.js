@@ -2,7 +2,19 @@
 per capire se la parola inserita è palindroma */
 
 const userString = prompt('Inserisci una parola per verificare che sia palindroma:')
-isPalindrome(userString)
+
+
+ isPalindrome(userString)
+
+function isPalindrome(string) {
+    let stringReverse = string.split("").reverse().join("");
+    if (stringReverse == string){
+        console.log('The word is palindrome');
+    } else {
+        console.log('The word is not palindrome');
+    }
+} 
+ 
 /* const userStringArray = userString.split("")
 
 console.log(userStringArray);
@@ -19,15 +31,6 @@ if (userString == userStringReverse){
     console.log('The word is palindrome');
 } else {
     console.log('The word is not palindrome');
-}
+} */
 
- */
-function isPalindrome(string) {
-    let stringReverse = string.split("").reverse().join("");
-    if (stringReverse == string){
-        console.log('The word is palindrome');
-    } else {
-        console.log('The word is not palindrome');
-    }
-} 
-
+ 
