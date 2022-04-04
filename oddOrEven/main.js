@@ -7,7 +7,7 @@ Dichiariamo chi ha vinto. */
 
 const oddOrEven = prompt('Scegli o pari o dispari:  es. [pari/dispari]')
 const userNumber = Number(prompt('Scegli un numero compreso tra 1 e 5'))
-const pcNumber = getRandomNumber(1, 5)
+const pcNumber = getRandomNumber(1, 6)
 
 
 //Blocco l'utente se inserisce male i dati
